@@ -1,0 +1,619 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>TAMU.ID</title>
+    <link rel="icon" href="images/icon-thumbnail.png" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/aos.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body class="bg-white">
+    <!-- MENU BAR -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="images/logo-four.png" alt="" srcset="" width="150px" />
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link smoothScroll">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="privacy-statement.html" class="nav-link smoothScroll">Exercise</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Panduan pengguna -->
+    <section>
+        <div id="bg-image" class="bg-howto bg-image1 d-flex justify-content-center align-items-center flex-column">
+            <div class="bg-filter"></div>
+            <h1 id="title" class="title-howto mt-5">Caesar Cipher</h1>
+            <!-- <h3 id="sub-title" class="title-howto">Login easyly with our system</h3> -->
+        </div>
+        <div class="header-howto d-flex flex-wrap justify-content-center align-items-center flex-gap">
+            <div id="border1" class="border-active">
+                <h5 id="content1" class="nav-content-active">Caesar Cipher</h5>
+            </div>
+            <div id="border2">
+                <h5 id="content2"> Vigenere Cipher</h5>
+            </div>
+            <div id="border3">
+                <h5 id="content3">Playfair Cipher</h5>
+            </div>
+            <div id="border4">
+                <h5 id="content4">Zigzag Cipher</h5>
+            </div>
+            <div id="border5">
+                <h5 id="content5">Affine Cipher</h5>
+            </div>
+            <div id="border6">
+                <h5 id="content6">Hill Cipher</h5>
+            </div>
+            <div id="border7">
+                <h5 id="content7">Transposisi Cipher</h5>
+            </div>
+        </div>
+    </section>
+    <section>
+        <!-- content 1 -->
+        <div id="content-howto1" class="container content-howto content-active">
+            <div class="row">
+                <div class="col-lg-8 col-md-4 col-12" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card border-0 my-3">
+                        <div class="row justify-content-center">
+                            <div class="card-body col-md-10 col-11">
+                                <h6 class="card-title"><b>
+                                        Penjelasan
+                                    </b></h6>
+                                <p class="card-text text-justify" style="font-size: 12px;">
+                                    Pada abad pertama Masehi orang-orang Romawi sudah menggunakan matematika yang
+                                    dikembangkan di Yunani [1].
+                                    Julius Caesar ingin berkomunikasi mengenai pesan penting yang aman dengan ekspedisi
+                                    militernya melalui jenderal perang saat itu,
+                                    ialah Mark Anthony diciptakanlah sebuah algoritme atau metode efektif untuk
+                                    menyandikan sebuah pesan.
+                                    Cipher atau sandi itu dinamai Caesar Cipher, dinamakan seperti itu untuk menghormati
+                                    pembuat algoritme ini,
+                                    ialah Julius Caesar yang menurut Suetonius yang merupakan penulis sejarah Romawi,
+                                    digunakan untuk mengenkripsi atau menyandikan pesan militer dan resmi lainnya.
+                                    Karena mayoritas musuh Roma buta huruf pada era ini, sandi tetap aman untuk
+                                    sementara waktu. Pada abad ke 9 Masehi, setelah jatuhnya Roma,
+                                    terdapat catatan rekaman metode untuk memecahkan Caesar Cipher dengan menggunakan
+                                    analisis frekuensi dari Al-Kindi
+                                </p>
+                                <h6 class="card-title"><b>
+                                        Caesar Cipher
+                                    </b></h6>
+                                <p class="card-text text-justify" style="font-size: 12px;">
+                                    Penggunaan sandi substitusi yang paling awal diketahui dan paling sederhana adalah
+                                    oleh Julius Caesar.
+                                    Caesar Cipher melibatkan mengganti (subtitusi) setiap huruf alfabet dengan huruf
+                                    berdiri tiga tempat lebih jauh ke bawah alphabet [5]. Dalam kriptografi, tidak
+                                    mengenal cara menyandikan huruf dan angka desimal. Solusinya adalah mengubah huruf
+                                    tersebut menjadi deretan bilangan bulat (integer).
+                                    Misal huruf A menjadi angka 1, huruf B menjadi angka 2, dan seterusnya hingga huruf
+                                    Z menjadi angka 26
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-12" data-aos="fade-up" data-aos-delay="150">
+                    <div class="card border-0 my-3">
+                        <div class="row justify-content-center">
+                            <div class="card-body col-md-9 col-11">
+                                <h6 class="card-title">
+                                    <b>Rumus</b>
+                                </h6>
+                                <p class="card-text" style="font-size: 12px;">
+                                    Enkripsi
+                                </p>
+                                <p class="font-italic" style="font-size: 12px;">
+                                    C = E(P) = (P+k) mod 26
+                                </p>
+                                <p class="card-text" style="font-size: 12px;">
+                                    Dekripsi
+                                </p>
+                                <p class="font-italic" style="font-size: 12px;">
+                                    P=D(C) = (C-k) mod 26
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- content 2 -->
+        <div id="content-howto2" class="container content-howto">
+
+            <div class="row">
+                <div class="col-lg-8 col-md-4 col-12" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card border-0 my-3">
+                        <div class="row justify-content-center">
+                            <div class="card-body col-md-10 col-11">
+                                <h6 class="card-title">
+                                    <b>Penjelasan</b>
+                                </h6>
+                                <p class="card-text text-justify" style="font-size: 12px;">
+                                    Sandi Vigenère adalah metode menyandikan teks alfabet dengan menggunakan deretan
+                                    sandi Caesar berdasarkan huruf-huruf pada kata kunci. Sandi Vigenère merupakan
+                                    bentuk sederhana dari sandi substitusi polialfabetik. Kelebihan sandi ini dibanding
+                                    sandi Caesar dan sandi monoalfabetik lainnya adalah sandi ini tidak begitu rentan
+                                    terhadap metode pemecahan sandi yang disebut analisis frekuensi.
+                                    Giovan Batista Belaso menjelaskan metode ini dalam buku La cifra del. Sig.
+                                    Giovan Batista Belaso (1553); dan disempurnakan oleh diplomat Prancis Blaise de
+                                    Vigenère, pada 1586. Pada abat ke-19, banyak orang yang mengira Vigenère adalah
+                                    penemu sandi ini, sehingga, sandi ini dikenal luas sebagai "sandi Vigenère".
+                                    Sandi ini dikenal luas karena cara kerjanya mudah dimengerti dan dijalankan, dan
+                                    bagi para pemula sulit dipecahkan. Pada saat kejayaannya, sandi ini dijuluki le
+                                    chiffre indéchiffrable (bahasa Prancis: 'sandi yang tak terpecahkan'). Metode
+                                    pemecahan sandi ini baru ditemukan pada abad ke-19. Pada tahun 1854, Charles Babbage
+                                    menemukan cara untuk memecahkan sandi Vigenère. Metode ini dinamakan tes Kasiski
+                                    karena Friedrich Kasiski-lah yang pertama mempublikasikannya.
+                                </p>
+                                <h6 class="card-title">
+                                    <b>Cara Kerja</b>
+                                </h6>
+                                <p class="card-text text-justify" style="font-size: 12px;">
+                                    Sandi Vigenère sebenarnya merupakan pengembangan dari sandi Caesar. Pada sandi
+                                    Caesar, setiap huruf teks terang digantikan dengan huruf lain yang memiliki
+                                    perbedaan tertentu pada urutan alfabet.
+                                    Misalnya pada sandi Caesar dengan geseran 3, A menjadi D, B menjadi E and dan
+                                    seterusnya. Sandi Vigenère terdiri dari beberapa sandi Caesar dengan nilai geseran
+                                    yang berbeda.
+                                    Untuk menyandikan suatu pesan, digunakan sebuah tabel alfabet yang disebut tabel
+                                    Vigenère (gambar). Tabel Vigenère berisi alfabet yang dituliskan dalam 26 baris,
+                                    masing-masing baris digeser satu urutan ke kiri dari baris sebelumnya, membentuk
+                                    ke-26 kemungkinan sandi Caesar.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-12" data-aos="fade-up" data-aos-delay="150">
+                    <div class="card border-0 my-3">
+                        <div class="row justify-content-center">
+                            <div class="card-body col-md-9 col-11">
+                                <h6 class="card-title">
+                                    <b>Rumus</b>
+                                </h6>
+                                <p class="card-text" style="font-size: 12px;">
+                                    Enkripsi
+                                </p>
+                                <p class="card-text" style="font-size: 12px;">
+                                    Ci = ( Pi + Ki ) mod 26
+                                </p>
+                                <p class="card-text" style="font-size: 12px;">
+                                    Dekripsi
+                                </p>
+                                <p class="card-text" style="font-size: 12px;">
+                                    Ci = ( Pi - Ki ) mod 26
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- content 3 -->
+        <div id="content-howto3" class="container content-howto">
+
+            <div class="row">
+                <div class="col-lg-8 col-md-4 col-12" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card border-0 my-3">
+                        <div class="row justify-content-center">
+
+                            <div class="card-body col-md-10 col-11">
+                                <h6 class="card-title">
+                                    <b>Penjelasan</b>
+                                </h6>
+                                <p class="card-text text-justify" style="font-size: 12px;">
+                                    Playfair cipher atau sering disebut Playfair Square merupakan teknik enkripsi
+                                    simetrik yang termasuk dalam sistem substitusi digraph.
+                                    Playfair Cipher Termasuk ke dalam polygram cipher. yang Ditemukan oleh Sir Charles
+                                    Wheatstone namun dipromosikan / dipopulerkan oleh Baron Lyon Playfair pada 1854.
+                                    Playfair Cipher mengenkripsi pasangan huruf (digram atau digraf), bukan huruf
+                                    tunggal seperti pada cipher klasik / tradisional lainnya. Tujuannya untuk membuat
+                                    analisis frekuensi menjadi sulit sebab frekuensi kemunculan huruf di dalam
+                                    cipherteks akan menjadi datar. Terdapat 25 buah huruf kunci Kriptografi yang
+                                    terdapat dalam Playfair Chiper,
+                                    kunci tersebut disusun di dalam bujursangkar 5x5 dengan menghilangkan huruf J dari
+                                    abjad.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-12" data-aos="fade-up" data-aos-delay="150">
+                    <div class="card border-0 my-3">
+                        <div class="row justify-content-center">
+                            <div class="card-body col-md-9 col-11">
+                                <h6 class="card-title">
+                                    <b>Rumus</b>
+                                </h6>
+                                <p class="card-text" style="font-size: 12px;">
+                                    Enkripsi
+                                </p>
+                                <p class="card-text" style="font-size: 12px;">
+                                    C = Abjad - 1
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- content 4 -->
+        <div id="content-howto4" class="container content-howto">
+
+            <div class="row">
+                <div class="col-lg-8 col-md-4 col-12" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card border-0 my-3">
+                        <div class="row justify-content-center">
+
+                            <div class="card-body col-md-10 col-11">
+                                <h6 class="card-title">
+                                    <b>Penjelasan</b>
+                                </h6>
+                                <p class="card-text" style="font-size: 12px;">
+                                    adalah salah satu dari algoritma klasik yang menggunakan teknik transposisi. Teknik
+                                    transposisi menggunakan permutasi
+                                    karakter, yang mana dengan menggunakan teknik ini pesan
+                                    yang asli tidak dapat dibaca kecuali orang yang memiliki kunci untuk menggembalikan
+                                    pesan tersebut ke bentuk semula.
+                                    Model enkripsi dan dekripsi pada Zig-zag Cipher hampir
+                                    mirip-mirip seperti algoritma transposisi lainnya yaitu Rail Fence Cipher (RFC)
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-12" data-aos="fade-up" data-aos-delay="150">
+                    <div class="card border-0 my-3">
+                        <div class="row justify-content-center">
+
+                            <div class="card-body col-md-9 col-11">
+                                <h6 class="card-title">
+                                    <b>NOTE : </b>
+                                </h6>
+                                <p class="card-text" style="font-size: 12px;">
+                                    Teknik yang diterapkan pada metode zig zag cipher adalah teknik transposisi cipher
+                                    enkripsi dan dekripsi pesan dengan
+                                    cara mengubah urutan huruf-huruf
+                                    yang ada didalam plaintext (pesan yang belum dienkripsi) menjadi ciphertext dengan
+                                    cara tertentu agar isi pesan tersebut
+                                    tidak dimengerti kecuali oleh
+                                    orang-orang tertentu. Pada dasarnya prinsip pengubahan pesan mirip dengan anagram
+                                    seperti kata “melepas” diubah menjadi
+                                    “saeeplm”, tapi tentu saja transposisi
+                                    cipher mempunyai rumus atau kunci tertentu yang diperlukan agar pesan bisa
+                                    dimengerti.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- content 5 -->
+        <div id="content-howto5" class="container content-howto">
+
+            <div class="row">
+                <div class="col-lg-8 col-md-4 col-12" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card border-0 my-3">
+                        <div class="row justify-content-center">
+                            <div class="card-body col-md-10 col-11">
+                                <h6 class="card-title">
+                                    <b>Penjelasan</b>
+                                </h6>
+                                <p class="card-text" style="font-size: 12px;">
+                                    Affine Cipher adalah algoritma kriptografi yang dikembangkan dari metode Caesar
+                                    Cipher.
+                                    Algoritma ini merupakan contoh dari kriptografi pertukaran monoalfabet. Affine
+                                    Cipher melakukan proses enkripsi dengan cara pergeseran karakter dengan substansial
+                                    matematis. Perbedaan yang mendasar dari algoritma ini adalah pergeseran dilakukan
+                                    dengan cara melakukan perkalian terhadap suatu bilangan yang relatif prima dengan
+                                    bilangan yang digunakan pada saat proses dekripsi. Seluruh proses bergantung pada
+                                    kunci dan modulo yang bekerja. Kunci yang digunakan pada algoritma ini adalah dua
+                                    buah bilangan prima dan satu buah bilangan integer sebagai penggeser. Hasil yang
+                                    diperoleh asdalah penggunaan algoritma Affine Cipher dalam melakukan proses enkripsi
+                                    dan dekripsi.
+                                    Penggunaan metode ini sangat membantu mengamankan teks yang akan dikirimkan kepada
+                                    orang lain atau pada jaringan komputer.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-12" data-aos="fade-up" data-aos-delay="150">
+                    <div class="card border-0 my-3">
+                        <div class="row justify-content-center">
+                            <div class="card-body col-md-9 col-11">
+                                <h6 class="card-title">
+                                    <b>Rumus</b>
+                                </h6>
+                                <p class="card-text" style="font-size: 12px;">
+                                    Enkripsi
+                                </p>
+                                <p class="card-text" style="font-size: 12px;">
+                                    E(P)=(ax+b) mod m
+                                </p>
+                                <p class="card-text" style="font-size: 12px;">
+                                    Dekripsi
+                                </p>
+                                <p class="card-text" style="font-size: 12px;">
+                                    D(E(P))=a-1(E(P)-b) mod m
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- content 6 -->
+        <div id="content-howto6" class="container content-howto">
+
+            <div class="row">
+                <div class="col-lg-8 col-md-4 col-12" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card border-0 my-3">
+                        <div class="row justify-content-center">
+
+                            <div class="card-body col-md-10 col-11">
+                                <h6 class="card-title">
+                                    <b>Penjelasan</b>
+                                </h6>
+                                <p class="card-text text-justify" style="font-size: 12px;">
+                                    Hill Cipher merupakan salah satu algoritma kriptografi kunci simetris yang memiliki
+                                    beberapa kelebihan dalam enkripsi data. Untuk menghindari matrik kunci yang tidak
+                                    invertible, matrik kunci dibangkitkan menggunakan koefisien binomial newton. Proses
+                                    enkripsi dan deskripsi menggunakan kunci yang sama, plaintext dapat menggunakan
+                                    media gambar atau text.
+
+                                    Algoritma Hill Cipher menggunakan matriks berukuran m x m sebagai kunci untuk
+                                    melakukan enkripsi dan dekripsi. Dasar teori matriks yang digunakan dalam Hill
+                                    Cipher antara lain adalah perkalian antar matriks dan melakukan invers pada matriks.
+
+                                    Hill Cipher merupakan penerapan aritmatika modulo pada kriptografi. Teknik
+                                    kriptografi ini menggunakan sebuah matriks persegi sebagai kunci yang digunakan
+                                    untuk melakukan enkripsi dan dekripsi.
+
+                                    Hill Cipher diciptakan oleh Lester S. Hill pada tahun 1929 [2]. Teknik kriptografi
+                                    ini diciptakan dengan maksud untuk dapat menciptakan cipher (kode) yang tidak dapat
+                                    dipecahkan menggunakan teknik analisis frekuensi. Hill Cipher tidak mengganti setiap
+                                    abjad yang sama pada plaintext dengan abjad lainnya yang sama pada ciphertext karena
+                                    menggunakan perkalian matriks pada dasar enkripsi dan dekripsinya.
+
+                                    Hill Cipher yang merupakan polyalphabetic cipher dapat dikategorikan sebagai block
+                                    cipher [2] karena teks yang akan diproses akan dibagi menjadi blokblok dengan ukuran
+                                    tertentu. Setiap karakter dalam satu blok akan saling mempengaruhi karakter lainnya
+                                    dalam proses enkripsi dan dekripsinya, sehingga karakter yang sama tidak dipetakan
+                                    menjadi karakter yang sama pula.
+
+                                    Hill Cipher termasuk kepada algoritma kriptografi klasik yang sangat sulit
+                                    dipecahkan oleh kriptanalis apabila dilakukan hanya dengan mengetahui berkas
+                                    ciphertext saja. Namun, teknik ini dapat dipecahkan dengan cukup mudah apabila
+                                    kriptanalis memiliki berkas ciphertext dan potongan berkas plaintext. Teknik
+                                    kriptanalisis ini disebut known-plaintext attack [1].
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-12" data-aos="fade-up" data-aos-delay="150">
+                    <div class="card border-0 my-3">
+                        <div class="row justify-content-center">
+
+                            <div class="card-body col-md-9 col-11">
+                                <h6 class="card-title">
+                                    <b>Rumus</b>
+                                </h6>
+                                <p class="card-text" style="font-size: 12px;">
+                                    Enkripsi
+                                </p>
+                                <p class="card-text" style="font-size: 12px;">
+                                    C = K . P (2)
+                                </p>
+                                <p class="card-text" style="font-size: 12px;">
+                                    Dekripsi
+                                </p>
+                                <p class="card-text" style="font-size: 12px;">
+                                    p = k-1.C
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- content 7 -->
+        <div id="content-howto7" class="container content-howto">
+
+            <div class="row">
+                <div class="col-lg-8 col-md-4 col-12" data-aos="fade-up" data-aos-delay="100">
+                    <div class="card border-0 my-3">
+                        <div class="row justify-content-center">
+                            <div class="card-body col-md-10 col-11">
+                                <h6 class="card-title">
+                                    <b>Penjelasan</b>
+                                </h6>
+                                <p class="card-text text-justify" style="font-size: 12px;">
+                                    Transposisi chiper merupakan adalah salah satu algoritma kriptografi
+                                    yang dimana
+                                    urutan karakter dalam plainteks. Pada teknik transposisi, plainteks tetap sama
+                                    tetapi urutannya diubah. algoritma ini melakukan transpose terhadap rangkaian
+                                    karakter di dalam teks.
+                                    Nama lain untuk metode ini adalah
+                                    permutasi, transpose setiap karakter di dalam teks sama dengan
+                                    mempermutasikan karakter-karakter tersebut.
+                                    Teknik ini menggunakan permutasi karakter dimana dengan menggunakan teknik ini
+                                    pesan yang asli tidak dapat dibaca
+                                    kecuali oleh orang yang memiliki kunci untuk mengembalikan pesan tersebut ke bentuk
+                                    semula. algoritma
+                                    ini melakukan transpose terhadap rangkaian huruf di dalam plainteks.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-12" data-aos="fade-up" data-aos-delay="150">
+                    <div class="card border-0 my-3">
+                        <div class="row justify-content-center">
+                            <div class="card-body col-md-9 col-11">
+                                <h6 class="card-title">
+                                    <b>Rumus</b>
+                                </h6>
+                                <p class="card-text" style="font-size: 12px;">
+                                    Enkripsi
+                                </p>
+                                <p class="card-text" style="font-size: 12px;">
+                                    Agar mengenkripsi pesan plaintex ditulis secara horizontal dan nantinya akan dibaca
+                                    secara vertical
+                                </p>
+                                <p class="card-text" style="font-size: 12px;">
+                                    Dekripsi
+                                </p>
+                                <p class="card-text" style="font-size: 12px;">
+                                    Deksripsi kebalikan dari enkripsi
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- button help -->
+    <a href="#" target="_blank">
+        <div class="btn-help rounded-pill">
+            <span class="pb-2 pr-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                    class="bi bi-question-circle-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z" />
+                </svg>
+            </span>
+            <div>
+                <h5>Need Help ?</h5>
+            </div>
+        </div>
+    </a>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-12">
+
+                    <h4 class="my-4 ml-4">follow us</h4>
+                    <p class="mb-1 ml-4">
+                        <a href="" target="_blank">
+                            <i class="fa fa-instagram mr-2 footer-icon"></i>
+                            @FOURCRYPT
+                        </a>
+                    </p>
+
+                    <p class="mb-1 ml-4">
+                        <a href="" target="_blank">
+                            <i class="fa fa-facebook-official mr-2 footer-icon"></i>
+                            FOURCRYPT
+                        </a>
+                    </p>
+
+                    <p class="mb-1 ml-4">
+                        <a href="" target="_blank">
+                            <i class="fa fa-twitter mr-2 footer-icon"></i>
+                            TFOURCRYPT
+                        </a>
+                    </p>
+
+                    <p class="mb-1 ml-4">
+                        <a href="" target="_blank">
+                            <i class="fa fa-youtube-play mr-2 footer-icon"></i>
+                            FOURCRYPT
+                        </a>
+                    </p>
+
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-12">
+
+                    <h4 class="my-4 ml-4">Contact Info</h4>
+                    <p class="mb-1 ml-4">
+                        <a href="https://wa.me/6281280647611" target="_blank">
+                            <i class="fa fa-phone mr-2 footer-icon"></i>
+                            +62812-8064-7611
+                        </a>
+                    </p>
+
+                    <p class="ml-4">
+                        <a href="#">
+                            <i class="fa fa-envelope mr-2 footer-icon"></i>
+                            cs@fourcrypt
+                        </a>
+                    </p>
+
+                </div>
+
+                <div class="col-lg-12 col-9 ml-auto mr-auto">
+
+                    <p class="copyright-text text-center">
+                        Copyright &copy;
+                        <script>
+                            document.write(new Date().getFullYear());
+                        </script>
+                        fourcrypt
+                        <a rel="nofollow noopener" href="#">Powered by JEEP HOUSE</a>
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>

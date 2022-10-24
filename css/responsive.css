@@ -1,0 +1,253 @@
+/*---------------------------------------
+
+     RESPONSIVE STYLES              
+
+  -----------------------------------------*/
+
+/* @media screen and (min-width: 1800px) {
+
+  #download-btn .btn-download {
+
+    width: 100%;
+
+  }
+
+  .btn-download .text {
+
+    margin-left: 18px;
+
+    margin-top: 8px;
+
+  }
+
+} */
+
+@media screen and (min-width: 1200px) {
+  /* .about-info h2 {
+
+    max-width: 70%;
+
+  } */
+
+  /* #download-btn .btn-download {
+
+    width: 100%;
+
+  } */
+
+  .btn-download .font i {
+    font-size: 2.8vh;
+  }
+
+  .btn-download .text {
+    font-size: 1.38vw;
+  }
+}
+
+@media screen and (max-width: 1367px) {
+  .btn-download .text {
+    font-size: 1.8vw;
+  }
+}
+
+@media screen and (min-width: 991px) {
+  .project h2 {
+    max-width: 32%;
+    margin: 0 auto;
+  }
+  /* #download-btn .btn-download {
+
+    width: 90%;
+
+  } */
+
+  /* .btn-download .text {
+
+    margin-left: 18px;
+
+    margin-top: 8px;
+
+  } */
+}
+
+@media screen and (max-width: 991px) {
+  .hero {
+    padding-top: 6.5em;
+  }
+
+  .hero-text {
+    bottom: 2em;
+  }
+
+  .navbar {
+    padding: 1em;
+  }
+
+  .navbar-collapse {
+    text-align: center;
+    padding: 2.5em 0;
+  }
+
+  .nav-link {
+    display: inline-block;
+  }
+
+  .navbar-expand-lg .navbar-nav .nav-link.contact {
+    margin: 1em 0;
+  }
+
+  .copyright-text,
+  .footer-link,
+  .site-footer .social-icon {
+    margin-top: 3em;
+    padding: 0;
+    text-align: left;
+  }
+  .bg-statement {
+    max-width: 60%;
+  }
+}
+@media screen and (min-width: 767px) {
+  .number-howto.inverse{
+  right : -2em;
+}
+}
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 36px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  h3 {
+    font-size: 22px;
+  }
+
+  .project-info {
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+  }
+
+  .footer-link,
+  .site-footer .social-icon {
+    margin-top: 1em;
+  }
+
+  .copyright-text {
+    margin: 2.5em 0 1em 0;
+  }
+
+  .footer-link li {
+    margin-left: 0;
+  }
+
+  .project-wrapper img {
+    border-radius: var(--border-radius-small);
+    height: 254px;
+    width: 381px;
+  }
+
+  .box-1 {
+    margin-bottom: 40px;
+  }
+
+  .box-2 {
+    margin-bottom: 40px;
+  }
+
+  .img-animate {
+    display: none;
+    height: 700px;
+    width: 100%;
+  }
+
+  .img-1 {
+    position: absolute;
+    height: 400px;
+    top: 18%;
+    left: 10%;
+  }
+
+  .img-2 {
+    height: 400px;
+    position: absolute;
+    z-index: 1;
+    left: 24%;
+    top: 10%;
+  }
+
+  .img-3 {
+    height: 400px;
+    position: absolute;
+    z-index: 1;
+    left: 15%;
+    top: 2%;
+  }
+
+  .img-4 {
+    height: 450px;
+    position: absolute;
+    z-index: 1;
+    left: 20%;
+    top: 6%;
+  }
+
+  .wa {
+    display: none;
+  }
+
+  #fitur .card {
+    margin: 0 auto;
+    margin-bottom: 25px;
+  }
+
+  /* halaman Promo */
+
+  .box-voucher {
+    margin: 0 auto;
+  }
+
+  #download-btn .btn-download {
+    width: 65%;
+  }
+
+  .btn-download .font i {
+    font-size: 2.8vh;
+  }
+
+  .btn-download .text {
+    font-size: 6vw;
+  }
+
+  .qr-body {
+    margin-left: 6%;
+  }
+
+  .img-fitur img {
+    margin-bottom: 20px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .btn-join {
+    width: 80%;
+    border-radius: 12px;
+  }
+
+  .btn-join:hover {
+    width: 80%;
+    border-radius: 12px;
+  }
+
+  .bg-joins {
+    background-position: center;
+    object-fit: cover;
+  }
+  .bg-statement {
+    max-width: 100%;
+  }
+}

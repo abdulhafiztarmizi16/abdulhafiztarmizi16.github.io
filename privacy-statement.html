@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>TAMU.ID</title>
+    <link rel="icon" href="images/icon-thumbnail.png" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/aos.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsive.css">
+
+</head>
+
+<body class="bg-white">
+    <!-- MENU BAR -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo-four.png" alt="" srcset="" width="150px" />
+            </a>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a href="index.html" class="nav-link smoothScroll">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="privacy-statement.html" class="nav-link smoothScroll">Exercise</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- PRIVACY STATEMENT -->
+    <section class="privacy d-flex justify-content-center align-items-center">
+        <div class="container">
+            <h1 class="text-center my-4">Exercise</h1>
+            <div class="bg-statement mx-auto rounded-pill d-flex mb-5">
+                <div id="btn-privacy"
+                    class="btn-statement bg-btn-active d-flex justify-content-center align-items-center rounded-pill">
+                    <h5>Contoh Soal</h5>
+                </div>
+                <div id="btn-term" class="btn-statement d-flex justify-content-center align-items-center rounded-pill">
+                    <h5>Latihan</h5>
+                </div>
+            </div>
+            <div class="row">
+                <!-- CONTENT PRIVACY POLICY -->
+                <div id="privacy-active" class="col-lg-12 col-md-12 col-12 ">
+                    <!-- accordion -->
+                    <div class="accordion" id="privacyAccordion">
+                        <!-- card 1 -->
+                        <div class="card">
+                            <div class="collapse-arrow">
+                                <div class="card-header collapsed" data-toggle="collapse"
+                                    data-target="#collapseOnePrivacy" aria-expanded="true" aria-controls="collapseOne">
+                                    <h6 class="mb-0">
+                                        Caesar Cipher
+                                    </h6>
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem"
+                                            fill="currentColor" class="bi bi-chevron-down icon" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                                        </svg>
+                                    </span>
+                                </div>
+                                <div id="collapseOnePrivacy" class="collapse" data-parent="#privacyAccordion">
+                                    <div class="card-body">
+                                        <p>plainteks : CINTA, enkripsikanlah dengan caesar cipher kunci 5!</p>
+                                        <p>Enkripsi :</p>
+                                        <p>Pertama ubahlah huruf menjadi angka dengan pedoman tabel di atas :
+
+                                            C = 2, I = 8, N = 13, T = 19, A = 0. Kemudian hitung dengan rumus enkripsi :
+
+                                        <p> C = E(2) = (2+5) = 7 mod 26 = 7(H)</p>
+
+                                        <p>C = E(8) = (8+5) = 13 mod 26 = 13(N)</p>
+
+                                        <p> C = E(13) = (13+5) = 18 mod 26 = 18(S)</p>
+
+                                        <p>C = E(19) = (19+5) = 24 mod 26 = 24(Y)</p>
+
+                                        <p> C = E(0) = (0+5) = 5 mod 26 = 5(F)</p>
+
+                                        <p> Cipherteks keseluruhan adalah : HNSYF</p>
+                                    </div>
+                                    <div class="card-body">
+                                        <p>Untuk mendekripsikan kembali kita membutuhkan kunci yaitu 5 (kunci yang sama
+                                            dengan saat enkripsi) dan kembali kita ubah
+                                            bentuk huruf ke dalam angka dengan pedoman tabel di atas:</p>
+
+                                        <p> H : 7, 13 = N, 18 = S, 24 = Y, 5 = F. Kemudian hitung dengan rumus dekripsi
+                                            :</p>
+
+                                        <p> P=D(7) = (7-5) = 2 mod 26 = 2(C)</p>
+
+                                        <p>P=D(13) = (13-5) = 8 mod 26 = 8(I)</p>
+
+                                        <p>P=D(18) = (18-5) = 13 mod 26 = 13(N)</p>
+
+                                        <p>P=D(24) = (24-5) = 19 mod 26 = 19(T)</p>
+
+                                        <p>P=D(5) = (5-5) = 0 mod 26 = 0(A)</p>
+
+                                        <p>Maka didapatlah plainteks kembali yaitu CINTA</p>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- card 2 -->
+                        <div class="card">
+                            <div class="collapse-arrow">
+                                <div class="card-header collapsed" id="headingTwo" data-toggle="collapse"
+                                    data-target="#collapseTwoPrivacy" aria-expanded="false" aria-controls="collapseTwo">
+                                    <h6 class="mb-0">
+                                        Vigenere Cipher
+                                    </h6>
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem"
+                                            fill="currentColor" class="bi bi-chevron-down icon" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                                        </svg>
+                                    </span>
+                                </div>
+                                <div id="collapseTwoPrivacy" class="collapse" aria-labelledby="headingTwo"
+                                    data-parent="#privacyAccordion">
+                                    <div class="card-body">
+                                        <p>Kunci = Sony</p>
+                                        <p>Plaintext = thisplaintext</p>
+                                        <p>Kunci = sonysonysonys</p>
+                                        <img src="images/kunci.JPG" width="600" height="400">
+                                        <p>Hasil enkripsi seluruhnya adalah sebagai berikut:</p>
+                                        <p>Plainteks : thisplaintext</p>
+                                        <p>Kunci : sonysonysonys</p>
+                                        <p>Cipherteks : LVVQHZNGFHRV</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- card 3 -->
+                        <div class="card">
+                            <div class="collapse-arrow">
+                                <div class="card-header collapsed" id="headingThree" data-toggle="collapse"
+                                    data-target="#collapseThreePrivacy" aria-expanded="false"
+                                    aria-controls="collapseThree">
+                                    <h6 class="mb-0">
+                                        Transposisi Cipher
+                                    </h6>
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem"
+                                            fill="currentColor" class="bi bi-chevron-down icon" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                                        </svg>
+                                    </span>
+                                </div>
+                                <div id="collapseThreePrivacy" class="collapse" aria-labelledby="headingThree"
+                                    data-parent="#privacyAccordion">
+                                    <div class="card-body">
+                                        <p>plainteks = AKUCINTAKAMU</p>
+                                        <p>dengan kunci = 5:</p>
+                                        <img src="images/hasiltrans.JPG" width="200" height="200">
+                                        <p>Cipherteks : ANMKTUUACKIA</p>
+                                        <p>Dekripsi</p>
+                                        <img src="images/hasildek.png" width="200" height="200">
+                                        <p>Hasil : ANMKTUUAXCKXIAX</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- card 4 -->
+                        <div class="card">
+                            <div class="collapse-arrow">
+                                <div class="card-header collapsed" id="headingFour" data-toggle="collapse"
+                                    data-target="#collapseFourPrivacy" aria-expanded="false"
+                                    aria-controls="collapseFour">
+                                    <h6 class="mb-0">
+                                        Playfair Cipher
+                                    </h6>
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem"
+                                            fill="currentColor" class="bi bi-chevron-down icon" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                                        </svg>
+                                    </span>
+                                </div>
+                                <div id="collapseFourPrivacy" class="collapse" aria-labelledby="headingFour"
+                                    data-parent="#privacyAccordion">
+                                    <div class="card-body">
+                                        <p>Plaintext = GOOD BROOMS SWEEP CLEAN</p>
+                                        <img src="images/playfair.png" width="200" height="200">
+                                        <p>cipherteks : RD EO FA EX NQ KU GU KE DT YP NK EV</p>
+                                        <p>dekripsi:</p>
+                                        <p>1. Jika dua huruf terdapat pada baris kunci yang sama maka tiap huruf</p>
+                                        diganti dengan huruf di kirinya.
+                                        <p>2. Jika dua huruf terdapat pada kolom kunci yang sama maka tiap huruf</p>
+                                        diganti dengan huruf di atasnya.
+                                        <p>3. Jika dua huruf tidak pada baris yang sama atau kolom yang sama, maka</p>
+                                        huruf pertama diganti dengan huruf pada perpotongan
+                                        <p>4. baris huruf pertama dengan kolom huruf kedua. Huruf kedua diganti dengan
+                                        </p>
+                                        huruf pada titik sudut keempat dari persegi
+                                        panjang yang dibentuk dari 3 huruf yang digunakan sampai sejauh ini.
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- card 5 -->
+                        <div class="card">
+                            <div class="collapse-arrow">
+                                <div class="card-header collapsed" id="headingFive" data-toggle="collapse"
+                                    data-target="#collapseFivePrivacy" aria-expanded="false"
+                                    aria-controls="collapseFive">
+                                    <h6 class="mb-0">
+                                        Zigzag Cipher
+                                    </h6>
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem"
+                                            fill="currentColor" class="bi bi-chevron-down icon" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                                        </svg>
+                                    </span>
+                                </div>
+                                <div id="collapseFivePrivacy" class="collapse" aria-labelledby="headingFive"
+                                    data-parent="#privacyAccordion">
+                                    <div class="card-body">
+                                        <p>Plaintext : Leave The Money In The Brief Case</p>
+                                        <img src="images/zigzag.png" width="600" height="200">
+                                        <p>Jadi tulisan 'Leave The Money In The Brief Case' di enkripsi dengan Rail
+                                            Fence Cipher Menjadi :</p>
+
+                                        <p>LAE HMN YNH BIF AEE VTE OEI TER ECS</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- card 6 -->
+                        <div class="card">
+                            <div class="collapse-arrow">
+                                <div class="card-header collapsed" id="headingSix" data-toggle="collapse"
+                                    data-target="#collapseSixPrivacy" aria-expanded="false" aria-controls="collapseSix">
+                                    <h6 class="mb-0">
+                                        Affine Cipher
+                                    </h6>
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem"
+                                            fill="currentColor" class="bi bi-chevron-down icon" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                                        </svg>
+                                    </span>
+                                </div>
+                                <div id="collapseSixPrivacy" class="collapse" aria-labelledby="headingSix"
+                                    data-parent="#privacyAccordion">
+                                    <div class="card-body">
+                                        <p>Enkripsilah sebuah kata berikut menggunakan algoritma klasik Affine Cipherdan
+                                            dekrip kembali dengan ketentuan :</p>
+                                        <p>Plainteks : KRIPTO</p>
+                                        <p> m = 7 (Nilai m ini dibuat sendiri dengan ketentuan angka harus relatif prima
+                                            dengan 26)</p>
+                                        <p>b = 10 (Angka ini juga dibuat sendiri seperti kunci)</p>
+                                        <p>Enkripsi :</p>
+
+                                        <p>Proses pertama sama seperti pada Caesar Cipher ubahlah plainteks ke dalam
+                                            bentuk
+                                            angka (K=10, R=17, I=8, P=15, T=19,
+                                            O=14)</p>
+
+                                        <p>kemudian hitunglah dengan rumus enkripsi : Enkripsi: C = mP + b (mod n)</p>
+
+                                        <p>p1(10)= c1 =(7 x 10 + 10) = 80 mod 26 = 2(C)</p>
+                                        <p>p2(17)= c2 =(7 x 17 + 10) = 129 mod 26 = 25(Z)</p>
+                                        <p>p3(8)= c3 =(7 x 8 + 10) = 66 mod 26 = 14(O)</p>
+                                        <p>p4(15)= c4 =(7 x 15 + 10) = 115 mod 26 = 11(L)</p>
+                                        <p>p5(19)= c5 =(7 x 19 + 10) = 143 mod 26 = 13(N)</p>
+                                        <p>p6(14)= c6 =(7 x 14 + 10) = 108 mod 26 = 4(E)</p>
+
+                                        <p>Maka cipherteks adalah : CZOLNE</p>
+
+                                        <p>Dekripsi :</p>
+
+                                        <p>>Sama seperti pada Caesar Cipher, huruf tersebut diganti terlebih dahulu ke
+                                            dalam
+                                            bentuk angka (C=2, Z=25, O=14, L=11,
+                                            N=13, E=4)</p>
+
+                                        <p>Kemudian pada proses dekripsi, nilai m harus dipecahkan dengan mencari nilai
+                                            kongruen lanjar. Yaitu 7 dikali berapa yang
+                                            hasilnya jika di mod dengan 26 adalah 1.</p>
+
+                                        <p>Solusinya: 15, sebab 7 × 15 = 105 mod 26=1</p>
+
+                                        <p>Selanjutnya lakukan dekripsi dengan rumus : Dekripsi: P = m–1 (C – b) (mod n)
+                                        </p>
+
+                                        <p>c1(2)= p1 =15 (2 – 10) = -120 mod 26 = 10(K)</p>
+                                        <p>c2(25)= p2 =15 (25 – 10) = 225 mod 26 = 17(R)</p>
+                                        <p>c3(14)= p3 =15(14 – 10) = 60 mod 26 = 8(I)</p>
+                                        <p>c4(11)= p4 =15(11 – 10) = 15 mod 26 = 15(P)</p>
+                                        <p>c5(13)= p5 =15(13 – 10) = 45 mod 26 = 19(T)</p>
+                                        <p>c6(4)= p6 =15(4 – 10) = -90 mod 26 = 14(O)</p>
+
+                                        <p>Maka di dapatlah hasil dekripsi yaitu ; KRIPTO</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <!-- card 7 -->
+                        <div class="card">
+                            <div class="collapse-arrow">
+                                <div class="card-header collapsed" id="headingSeven" data-toggle="collapse"
+                                    data-target="#collapseSevenPrivacy" aria-expanded="false"
+                                    aria-controls="collapseSeven">
+                                    <h6 class="mb-0">
+                                        Hill Cipher
+                                    </h6>
+                                    <span>
+                                        <svg xmlns="http://www.w3.org/2000/svg" width="1.5rem" height="1.5rem"
+                                            fill="currentColor" class="bi bi-chevron-down icon" viewBox="0 0 16 16">
+                                            <path fill-rule="evenodd"
+                                                d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z" />
+                                        </svg>
+                                    </span>
+                                </div>
+                                <div id="collapseSevenPrivacy" class="collapse" aria-labelledby="headingSeven"
+                                    data-parent="#privacyAccordion">
+                                    <div class="card-body">
+                                        <p>Plaintext : AMIKOM</p>
+                                        <p> k = 4 3</p>
+                                        <p>3 3</p>
+                                        <img src="images/hill.png" width="600" height="200">
+                                        <p>Sehingga plain text AMIKOM menjadi : 0,12,8,10,14,12.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- end accordion -->
+                </div>
+                <!-- CONTENT TERM & CONDITION -->
+                <div id="term-active" class="term-active col-lg-12 col-md-12 col-12">
+                    <iframe
+                        src="https://docs.google.com/forms/d/e/1FAIpQLSc2e-cXRRIgMEvY-X6BF-TVYnwGbyxhilNPEL7G-fUTz2ef_A/viewform?embedded=true"
+                        width="100%" height="3500" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- button help -->
+    <a href="https://wa.me/+6281280647611" target="_blank">
+        <div class="btn-help rounded-pill">
+            <span class="pb-2 pr-2">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor"
+                    class="bi bi-question-circle-fill" viewBox="0 0 16 16">
+                    <path
+                        d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.496 6.033h.825c.138 0 .248-.113.266-.25.09-.656.54-1.134 1.342-1.134.686 0 1.314.343 1.314 1.168 0 .635-.374.927-.965 1.371-.673.489-1.206 1.06-1.168 1.987l.003.217a.25.25 0 0 0 .25.246h.811a.25.25 0 0 0 .25-.25v-.105c0-.718.273-.927 1.01-1.486.609-.463 1.244-.977 1.244-2.056 0-1.511-1.276-2.241-2.673-2.241-1.267 0-2.655.59-2.75 2.286a.237.237 0 0 0 .241.247zm2.325 6.443c.61 0 1.029-.394 1.029-.927 0-.552-.42-.94-1.029-.94-.584 0-1.009.388-1.009.94 0 .533.425.927 1.01.927z" />
+                </svg>
+            </span>
+            <div>
+                <h5>Need Help ?</h5>
+            </div>
+        </div>
+    </a>
+
+    <!-- FOOTER -->
+    <footer class="site-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-12">
+
+                    <h4 class="my-4 ml-4">follow us</h4>
+                    <p class="mb-1 ml-4">
+                        <a href="" target="_blank">
+                            <i class="fa fa-instagram mr-2 footer-icon"></i>
+                            @FOURCRYPT
+                        </a>
+                    </p>
+
+                    <p class="mb-1 ml-4">
+                        <a href="" target="_blank">
+                            <i class="fa fa-facebook-official mr-2 footer-icon"></i>
+                            FOURCRYPT
+                        </a>
+                    </p>
+
+                    <p class="mb-1 ml-4">
+                        <a href="" target="_blank">
+                            <i class="fa fa-twitter mr-2 footer-icon"></i>
+                            TFOURCRYPT
+                        </a>
+                    </p>
+
+                    <p class="mb-1 ml-4">
+                        <a href="" target="_blank">
+                            <i class="fa fa-youtube-play mr-2 footer-icon"></i>
+                            FOURCRYPT
+                        </a>
+                    </p>
+
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-12">
+
+                    <h4 class="my-4 ml-4">Contact Info</h4>
+                    <p class="mb-1 ml-4">
+                        <a href="https://wa.me/6281280647611" target="_blank">
+                            <i class="fa fa-phone mr-2 footer-icon"></i>
+                            +62812-8064-7611
+                        </a>
+                    </p>
+
+                    <p class="ml-4">
+                        <a href="#">
+                            <i class="fa fa-envelope mr-2 footer-icon"></i>
+                            cs@fourcrypt
+                        </a>
+                    </p>
+
+                </div>
+
+                <div class="col-lg-12 col-9 ml-auto mr-auto">
+
+                    <p class="copyright-text text-center">
+                        Copyright &copy;
+                        <script>
+                            document.write(new Date().getFullYear());
+                        </script>
+                        fourcrypt
+                        <a rel="nofollow noopener" href="#">Powered by JEEP HOUSE</a>
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- SCRIPTS -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+
+</html>
